@@ -1,3 +1,39 @@
 /* Hoja de estilos del proyecto.
    Se empieza a trabajar en la sesión 3.
    Las reglas se escriben debajo de este comentario. */
+/* estilos.css */
+
+/* Estilo general del cuerpo */
+body {
+    background-color: #ffe6f0; /* rosado claro */
+    color: #ffffff; /* blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para títulos */
+h1, h2, h3 {
+    color: #ff66a3; /* un rosado un poco más fuerte */
+}
+
+/* Estilo para párrafos */
+p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Botones estilizados */
+button {
+    background-color: #ff66a3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff4d88; /* rosado más intenso al pasar el cursor */
+}
