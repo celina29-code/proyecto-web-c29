@@ -3,8 +3,8 @@
 Proyecto del curso Desarrollo Web Profesional con HTML, CSS, JavaScript y Git.
 Colegio de Ingenieros de Guatemala.
 
-- **Autor:** su nombre
-- **Dirección publicada:** https://jinchuika.github.io/web-2026
+- **Autor:** celina alvarado
+- **Dirección publicada:** https://celina29-code.github.io/proyecto-web-c29
 
 ## Estructura
 
