@@ -7,6 +7,7 @@ body {
   padding: 0;
 }
 
+
 /* Encabezado */
 header {
   font-family: 'Playwrite CU Guides', cursive;
@@ -81,4 +82,38 @@ footer {
   padding: 1rem;
   color: #4a4a4a;
   font-size: 0.9rem;
+}
+
+
+/* Proyectos */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjetas article {
+  background-color: var(--fondo);
+  color: var(--texto);
+  border: 1px solid var(--principal);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tarjetas article:hover {
+  transform: translateY(-5px);
+  border-color: var(--acento);
+}
+
+.tarjetas h3 {
+  font-family: var(--titulos);
+  color: var(--principal);
+  margin-bottom: 0.8rem;
+}
+
+.tarjetas p {
+  font-family: var(--texto);
+  line-height: 1.5;
 }
