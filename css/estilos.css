@@ -1,5 +1,5 @@
 /* Estilo general */
-body {
+body { 
   font-family: 'Poppins', sans-serif;
   background-color: #fdf2f8; /* Rosa muy claro */
   color: #4a4a4a;
@@ -9,6 +9,7 @@ body {
 
 /* Encabezado */
 header {
+  font-family: 'Playwrite CU Guides', cursive;
   background-color: #f9a8d4; /* Rosa pastel */
   color: rgb(85, 83, 83);
   text-align: center;
@@ -16,6 +17,7 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 4px;
+ 
 }
 
 /* Navegación */
