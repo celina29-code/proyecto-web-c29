@@ -1,3 +1,19 @@
+/* --- VARIABLES DE COLOR, IDENTIDAD Y TIPOGRAFIA --- */
+:root {
+   --color-principal: #2c7075;
+   --color-acento: #be76be;
+   --color-fondo: #e5e5e2;
+   --color-texto: #07192b;
+   --color-error: #b00020;
+   --color-exito: #1b5e20;
+
+   /* el nombre va escrito igual que en Google Fonts, y siempre
+      con una alternativa por si la descarga falla */
+   --fuente-titulos: "Montserrat", Arial, sans-serif;
+   --fuente-texto: "Montserrat", Arial, sans-serif;
+}
+
+
 /* Estilo general */
 body { 
   font-family: 'Poppins', sans-serif;
@@ -124,4 +140,26 @@ footer {
 }
 
 
+/* Estos son los estilos de CSS */
 
+.error {
+   color: var(--color-error);
+   font-size: 0.9rem;
+   margin: 0.25rem 0 0;
+   min-height: 1.1rem;
+}
+
+.campo-invalido {
+   border: 2px solid var(--color-error);
+}
+
+.campo-invalido:focus {
+   outline: 2px solid var(--color-error);
+   outline-offset: 2px;
+}
+
+.exito {
+   color: var(--color-exito);
+   font-weight: 600;
+   margin-top: 1rem;
+}
